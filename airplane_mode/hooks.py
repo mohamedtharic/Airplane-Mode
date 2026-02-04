@@ -1,8 +1,8 @@
 app_name = "airplane_mode"
-app_title = "airplane"
-app_publisher = "Rick"
-app_description = "Flight Ticket System"
-app_email = "rick@frappe.io"
+app_title = "Airplane Mode"
+app_publisher = "Tharic"
+app_description = "This is basis"
+app_email = "tharic@gmail.com"
 app_license = "mit"
 
 # Apps
@@ -15,7 +15,7 @@ app_license = "mit"
 # 	{
 # 		"name": "airplane_mode",
 # 		"logo": "/assets/airplane_mode/logo.png",
-# 		"title": "airplane",
+# 		"title": "Airplane Mode",
 # 		"route": "/airplane_mode",
 # 		"has_permission": "airplane_mode.api.permission.has_app_permission"
 # 	}
