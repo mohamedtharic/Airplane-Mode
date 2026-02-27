@@ -1,0 +1,26 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Shop Type",
+  "enabled": 1,
+  "modified": "2026-02-19 12:22:31.119340",
+  "name": "vun0r55gma",
+  "shop_type_name": "Stall"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Shop Type",
+  "enabled": 1,
+  "modified": "2026-02-19 12:22:53.279829",
+  "name": "05k2avo010",
+  "shop_type_name": "Walk-through"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Shop Type",
+  "enabled": 1,
+  "modified": "2026-02-19 12:23:12.294359",
+  "name": "0bibcslkku",
+  "shop_type_name": "Normal"
+ }
+]

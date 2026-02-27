@@ -1,0 +1,24 @@
+{% extends "templates/web.html" %}
+ 
+{% block page_content %}
+ 
+<h1 style="font-size: 36px; font-weight: 600; margin-bottom: 30px;">
+    {{ name }}
+</h1>
+ 
+<h3 style="margin-bottom: 15px;">Flight Details</h3>
+ 
+<ul style="list-style-type: disc; margin-left: 25px; color: #6c757d; font-size: 16px;">
+    <li><strong>Airline:</strong> {{ airplane }}</li>
+    <li>{{ source_airport_code }} → {{ destination_airport_code }}</li>
+    <li>{{ frappe.utils.format_date(date_of_departure, "d MMMM, YYYY") }} | {{ time_of_departure }}</li>
+    <li><strong>Duration:</strong> {{ frappe.utils.format_duration(duration) }}</li>
+</ul>
+ <a
+  href="/ticket-booking-web-form/new?flight={{ doc.name }}&flight_price={{ doc.flight_price }}"
+  class="btn btn-primary"
+>
+  Book Flight
+</a>
+
+{% endblock %}

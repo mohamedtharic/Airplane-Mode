@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ shop.shop_name }}</title>
+    <link rel="stylesheet" href="/assets/airplane_mode/shop.css">
+</head>
+
+<body>
+
+<h1>{{ shop.shop_name }}</h1>
+
+<p>Shop Number: {{ shop.name }}</p>
+<p>Area: {{ shop.area }}</p>
+<p>Status: {{ shop.status }}</p>
+<p>Rent: {{ shop.rent_amount }}</p>
+
+<br>
+
+<a href="/shop-lead-web-form/new?shop={{ shop.name }}">
+    I'm interested in renting this shop
+</a>
+
+</body>
+</html>

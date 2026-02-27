@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shops</title>
+    <link rel="stylesheet" href="/assets/airplane_mode/shop.css">
+</head>
+
+<body>
+
+<h1>Available Shops</h1>
+
+{% for shop in shops %}
+    <div class="shop-card">
+        <h3>{{ shop.shop_name }}</h3>
+        <p>Area: {{ shop.area }}</p>
+        <p>Status: {{ shop.status }}</p>
+
+        <a href="/shops/{{ shop.name }}">View Details</a>
+    </div>
+{% endfor %}
+
+</body>
+</html>
